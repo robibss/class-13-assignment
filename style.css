@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-image{
+    background-image: url(./photo-1471879832106-c7ab9e0cee23.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: auto;
+    padding: 30px 0px;
+
+}
+
+.menu{
+    width: 1200px;
+    margin: auto;
+   
+    
+}
+.logo{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+.logo img{
+    height: 20px;
+    width: 80px;
+   
+}
+
+.menubar{
+    width: 45%;
+    display: inline-block;
+}
+
+.menubar ul{
+    text-align: center;
+}
+
+.menubar ul li{
+    display: inline-block;
+    
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 25px;
+    color: #fff;
+}
+
+.menubar ul li a:hover{
+    color:#EF664D;
+}
+
+.cottation{
+padding: 100px 0px;
+text-align: center;
+}
+.cottation h1{
+color: #fff;
+font-size: 40px;
+}
+.cottation h1::before{
+    content: "\f10d";
+    font: var(--fa-font-solid);
+    margin-right: 5px;
+    color: #EF664D;
+    position: relative;
+    top: -14px;
+}
+.cottation h1::after{
+    content: "\f10e";
+    font: var(--fa-font-solid);
+    margin-right: 5px;
+    color: #EF664D;
+    position: relative;
+    top: -14px;
+}
+
+
+.section-2{
+    background-color:#ddd;
+     padding: 100px;
+}
+
+
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px;
+    font-size: 25px;
+}
+
+/* about star */
+
+.image {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-right: 51px;
+} 
+
+.image img {
+    height: 150px;
+    border: 2px solid red;
+}
+.paragrap {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+/* about end */
+
+/* service star */
+
+.section-3{
+    background-color:#2E3E4E;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+   
+}
+.section-3 h1{
+    text-align: center;
+    color: #F6694D;
+    padding-bottom: 40px;
+}
+.section-3 h2{
+    margin: 15px;
+}
+i.fa-solid.fa-desktop {
+    background-color: #EF664D;
+    padding: 10px;
+}
+  
+.btn button:hover::before{
+    width: 25%;
+}
+.section-3 ul li{
+    list-style: none;
+    padding: 5px;
+    
+}
+.section-3 ul{
+    margin-bottom: 30px;
+    
+}
+.section-3 ul li::before{
+    content: "\f560";
+    font: var(--fa-font-solid);
+    margin-right: 5px;
+    color: #EF664D;
+}
+.btn button a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+.btn button {
+    background-color: #EF664D;
+    padding: 10px 50px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    border: none;
+    color:#000 !important;
+    
+}
+
+.btn button::before{
+    content: "";
+    background-color: yellow;
+    position: absolute;
+    border-radius: 5px;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .4s;
+   
+}
+.btn button:hover::before{
+    width: 100%;
+    
+}
+
+.website{
+    display: inline-block;
+    width: 30%;
+}
+
+.print{
+    display: inline-block;
+    width: 30%;
+}
+
+.web-development{
+    display: inline-block;
+    width: 30%;
+}
+
+/* btn2 */
+.btn2 button a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+.btn2 button {
+    background-color: #EF664D;
+    padding: 10px 50px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    border: none;
+    color:#000 !important;
+    
+}
+
+.btn2 button::before{
+    content: "";
+    background-color: yellow;
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .4s;
+   
+}
+.btn2 button:hover::before{
+    height: 100%; 
+}
+/* btn3 */
+.btn3 button a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+.btn3 button {
+    background-color: #EF664D;
+    padding: 10px 50px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    border: none;
+    color:#000 !important;
+    
+}
+
+.btn3 button::before{
+    content: "";
+    background-color: yellow;
+    position: absolute;
+    border-radius: 5px;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: .4s;
+   
+}
+.btn3 button:hover::before{
+    width: 100%; 
+}
+
+/* service end */
+
+/* contract star */
+ 
+.contract{
+    text-align: center;
+    margin: 50px;
+}
+.contract{
+    color:#000;
+    text-transform:uppercase;
+}
+
+.input-type input {
+    padding: 10px;
+    width: 500px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid red; 
+}
+
+.Submit button a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+.Submit button {
+    background-color: #EF664D;
+    padding: 10px 50px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    border: none;
+    color:#000 !important;
+    
+}
+
+.Submit button::before{
+    content: "";
+    background-color: yellow;
+    position: absolute;
+    border-radius: 5px;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    transition: 1s;
+   
+}
+.Submit button:hover::before{
+    width: 100%;
+    
+}
+/* contract end */
+
+.footer{
+    background-color: #2E3E4E;
+    text-align: center;
+    padding: 20px;
+}
+.footer p{
+    color: #fff;
+    font-size: 14px;
+}
